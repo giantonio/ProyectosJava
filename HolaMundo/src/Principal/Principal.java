@@ -24,6 +24,11 @@ public class Principal {
 	public static void segundoMensaje() {
 		System.out.println("Segundo mensaje");
 	}
+	
+	public static void suma() {
+		System.out.println("En este metodo se va a desarrollar una suma");
+	}
+	
 	public static String mensajePorParametro(String mensaje) {
 		return mensaje;
 	}
