@@ -21,6 +21,9 @@ public class Principal {
 		System.out.println("Primer mensaje del proyecto Hola mundo");
 	}
 	
+	public static void segundoMensaje() {
+		System.out.println("Segundo mensaje");
+	}
 	public static String mensajePorParametro(String mensaje) {
 		return mensaje;
 	}
