@@ -32,5 +32,15 @@ public class Principal {
 	public static String mensajePorParametro(String mensaje) {
 		return mensaje;
 	}
+	
+	/**
+	 * Metodo que sumara dos numeros enteros
+	 * @param n1
+	 * @param n2
+	 * @return Valor entero que devolvera la suma de dos numeros
+	 */
+	public static int suma(int n1,int n2) {
+		return n1+n2;
+	}
 
 }
